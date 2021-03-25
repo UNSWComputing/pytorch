@@ -8997,7 +8997,7 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - master_disabled
     jobs:
       - docker_for_ecr_gc_build_job
       - ecr_gc_job:
